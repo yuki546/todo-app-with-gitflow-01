@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Todo from './components/Todo'
 
 function App() {
   const [title, setTitle] = useState<string>("");
