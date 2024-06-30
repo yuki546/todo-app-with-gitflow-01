@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Todo from './components/Todo'
 
 function App() {
+  const API_URL = "http://localhost:8080";
   return (
     <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-32 py-4 px-4">
       <div className="px-4 py-2">
